@@ -1,1 +1,16 @@
-
+<req>
+      <summary>The 'Undo' button is disabled after clicking the 'Save' button</summary>
+      <pre_conditions>The UserB was created</pre_conditions>
+      <str>1. Log in under UserB
+           2. Select the 'User info' tab
+           3. Edit Tte information from 'User Name' field
+           4. Click the 'Save' button
+           5. Navigate the 'Undo' button</str>
+     <act>The 'Undo' button is disabled after clicking the 'Save' button</act>
+     <exp>The 'Undo' button is activated after clicking the 'Save' button</exp>
+     <environment>Windows 10 x64</environment>
+     <severity>Major</severity>
+     <priority>Medium</priority>
+     <reporter>Pavlo M.</reporter>
+     <attach>some link</attach
+</req>
